@@ -10,7 +10,7 @@ const Navbar = () => {
           <li key={index}>
             <Button
               padding={"8px"}
-              shadow={"2px 2px 4px var(--primary-shadow-color)"}
+              shadow={"2px 2px 4px var(--shadow-color)"}
               borderRadius={"8px"}
               color={"var(--tertiary)"}
               fontSize={"16px"}

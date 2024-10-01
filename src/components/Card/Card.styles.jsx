@@ -8,14 +8,14 @@ const StyledCardDiv = styled.div`
   flex-flow: column nowrap;
   gap: 8px;
   background-color: var(--senary);
-  box-shadow: 0px 1px 5px 0px var(--primary-shadow-color);
+  box-shadow: 1px 3px 10px -4px var(--shadow-color);
   border-radius: 12px;
   cursor: pointer;
   transition: 200ms ease-in-out;
 
   &:hover {
     background-color: var(--secondary);
-    box-shadow: 0px 0px 5px 0px var(--primary-shadow-color) inset;
+    box-shadow: 0px 1px 10px -4px var(--shadow-color) inset;
   }
 
   .description {

@@ -1,14 +1,20 @@
 import { Link } from "react-router-dom";
 import Burger_Icon from "../../../assets/icons/burger";
 import Dark_mode_Icon from "../../../assets/icons/dark_mode";
+import Light_mode_Icon from "../../../assets/icons/light_mode";
 import Button from "../../../components/Button";
 import StyledDiv from "./Optionsbar.styles";
+import { useTheme } from "../../../styles/theme/theme";
 
 const Optionsbar = () => {
+  const { theme, toggleTheme } = useTheme();
   return (
     <StyledDiv>
       <ul className="list">
-        <li className={"item"}>
+        <li
+          className={"item"}
+          onClick={() => toggleTheme(theme === "light" ? "dark" : "light")}
+        >
           <Button
             height={"40px"}
             width={"40px"}
@@ -16,19 +22,19 @@ const Optionsbar = () => {
             padding={"8px"}
             borderWidth={"1px"}
             borderStyle={"solid"}
-            borderColor={"transparent"}
+            borderColor={"--senary"}
             borderRadius={"50px"}
             fontColor={"--font-primary"}
             fontSize={"22px"}
             hoverBackground={"--background-secondary"}
-            hoverShadow={"2px 2px 4px --primary-shadow-color"}
+            hoverShadow={"2px 2px 4px --shadow-color"}
             hoverBorderWidth={"1px"}
             hoverBorderStyle={"solid"}
             hoverBorderColor={"--tertiary"}
             hoverFontColor={"--font-tertiary"}
             ariaLabel={"Boton para cambiar al modo oscuro"}
           >
-            <Dark_mode_Icon />
+            {theme === "light" ? <Dark_mode_Icon /> : <Light_mode_Icon />}
           </Button>
         </li>
         <li className={"item"}>
@@ -44,7 +50,7 @@ const Optionsbar = () => {
             fontColor={"--font-primary"}
             fontSize={"20px"}
             hoverBackground={"--background-secondary"}
-            hoverShadow={"2px 2px 4px --primary-shadow-color"}
+            hoverShadow={"2px 2px 4px --shadow-color"}
             hoverBorderWidth={"1px"}
             hoverBorderStyle={"solid"}
             hoverBorderColor={"--tertiary"}
@@ -65,7 +71,7 @@ const Optionsbar = () => {
               borderRadius={"8px"}
               fontColor={"--font-primary"}
               hoverBackground={"--background-secondary"}
-              hoverShadow={"2px 2px 4px --primary-shadow-color"}
+              hoverShadow={"2px 2px 4px --shadow-color"}
               hoverBorderWidth={"1px"}
               hoverBorderStyle={"solid"}
               hoverBorderColor={"--tertiary"}
@@ -88,7 +94,7 @@ const Optionsbar = () => {
               borderRadius={"8px"}
               fontColor={"--font-secondary"}
               hoverBackground={"--background-secondary"}
-              hoverShadow={"2px 2px 4px --primary-shadow-color"}
+              hoverShadow={"2px 2px 4px --shadow-color"}
               hoverBorderWidth={"1px"}
               hoverBorderStyle={"solid"}
               hoverBorderColor={"--tertiary"}
@@ -112,7 +118,7 @@ const Optionsbar = () => {
             fontColor={"--font-primary"}
             fontSize={"20px"}
             hoverBackground={"--background-secondary"}
-            hoverShadow={"2px 2px 4px --primary-shadow-color"}
+            hoverShadow={"2px 2px 4px --shadow-color"}
             hoverBorderWidth={"1px"}
             hoverBorderStyle={"solid"}
             hoverBorderColor={"--tertiary"}

@@ -14,7 +14,7 @@ const StyledBannerSection = styled.section`
   background-size: cover;
   background-position: center;
   border-radius: 20px;
-  box-shadow: 0px 0px 5px 2px var(--primary-shadow-color);
+  box-shadow: 0px 0px 5px 2px var(--shadow-color);
 
   & > div {
     height: 100%;
@@ -30,7 +30,7 @@ const StyledBannerSection = styled.section`
     & > h2 {
       font-family: var(--montserrat-alternates-bold);
       font-size: 24px;
-      color: var(--primary);
+      color: var(--font-emphazis);
     }
 
     & > h3 {

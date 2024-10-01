@@ -19,7 +19,7 @@ const StyledNav = styled.nav`
     justify-content: center;
     background-color: var(--background-secondary);
     border-radius: 20px 20px 0px 0px;
-    box-shadow: 0px 0px 5px 2px var(--primary-shadow-color);
+    box-shadow: 0px 0px 5px 2px var(--shadow-color);
 
     .list-mobile {
       height: 100%;
@@ -55,7 +55,7 @@ const StyledNav = styled.nav`
 
         & > span > svg {
           background-color: var(--secondary);
-          box-shadow: var(--primary-shadow-color);
+          box-shadow: var(--shadow-color);
           transition: 200ms ease-in-out;
         }
 

@@ -17,7 +17,6 @@ const GlobalContextProvider = ({ children }) => {
     setHomeContent(db["home-content"]);
   }, []);
 
-  console.log(events, categories, homeContent);
   return (
     <GlobalContext.Provider
       value={{

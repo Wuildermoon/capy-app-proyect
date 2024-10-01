@@ -4,9 +4,9 @@ const StyledDetailsViewDiv = styled.div`
   padding: 20px;
   max-width: 800px;
   margin: 0 auto 30px;
-  background-color: #fff;
+  background-color: var(--senary);
   border-radius: 10px;
-  box-shadow: 0 4px 8px var(--primary-shadow-color);
+  box-shadow: 0 4px 8px var(--shadow-color);
 
   .banner {
     width: 100%;
@@ -18,24 +18,25 @@ const StyledDetailsViewDiv = styled.div`
   .title {
     font-size: 24px;
     margin-bottom: 8px;
-    color: var(--font-primary);
+    color: var(--font-emphazis);
+    font-family: var(--font-medium);
   }
 
   .date {
     font-size: 16px;
-    color: #666;
+    color: var(--font-tertiary);
     margin-bottom: 16px;
   }
 
   .place {
     font-size: 18px;
-    color: #333;
+    color: var(--font-tertiary);
     margin-bottom: 8px;
   }
 
   .description {
     font-size: 16px;
-    color: #444;
+    color: var(--font-primary);
     line-height: 1.5;
     margin-bottom: 16px;
   }

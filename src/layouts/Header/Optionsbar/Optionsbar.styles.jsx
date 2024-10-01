@@ -12,6 +12,14 @@ const StyledDiv = styled.div`
     align-items: center;
     gap: 4px;
     padding: 5px;
+
+    & > .item {
+      & > button {
+        & > svg > path {
+          fill: var(--icon-primary);
+        }
+      }
+    }
   }
 
   .session {

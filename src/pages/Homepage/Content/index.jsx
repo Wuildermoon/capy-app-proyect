@@ -5,9 +5,8 @@ import StyledEventContentSection from "./Content.styles";
 import { shuffleArray } from "../../../utils/utils";
 import CardContainer from "../../../components/CardContainer";
 import Card from "../../../components/Card";
-import Button from "../../../components/Button";
-import Arrow_left_circle_Icon from "../../../assets/icons/arrow_left_circle";
-import Arrow_right_circle_Icon from "../../../assets/icons/arrow_right_circle";
+import LeftScrollButton from "../../../components/LeftScrollButton";
+import RightScrollButton from "../../../components/RightScrollButton";
 
 const Content = ({ events, homeContent, touristDestinations }) => {
   const listRefs = useRef([]);
@@ -79,15 +78,7 @@ const Content = ({ events, homeContent, touristDestinations }) => {
         .map((item, index) => (
           <CardContainer classN={item.classN} title={item.name} key={index}>
             {showNavButtons[index] && (
-              <Button>
-                <span
-                  className="nav-button"
-                  onClick={() => handleScroll("left", index)}
-                  aria-label="Mover a la izquierda"
-                >
-                  <Arrow_left_circle_Icon />
-                </span>
-              </Button>
+              <LeftScrollButton handleScroll={handleScroll} index={index}/>
             )}
             <ul
               className={`list ${item.classN}-list `}
@@ -98,15 +89,7 @@ const Content = ({ events, homeContent, touristDestinations }) => {
                 : renderListItems(events, false)}
             </ul>
             {showNavButtons[index] && (
-              <Button>
-                <span
-                  className="nav-button"
-                  onClick={() => handleScroll("right", index)}
-                  aria-label="Mover a la derecha"
-                >
-                  <Arrow_right_circle_Icon />
-                </span>
-              </Button>
+              <RightScrollButton handleScroll={handleScroll} index={index}/>
             )}
           </CardContainer>
         ))}

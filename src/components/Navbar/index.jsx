@@ -38,7 +38,7 @@ const Navbar = () => {
                   borderRadius={"8px"}
                   fontColor={"--font-primary"}
                   hoverBackground={"--secondary"}
-                  hoverShadow={"2px 2px 4px --primary-shadow-color"}
+                  hoverShadow={"2px 2px 4px --shadow-color"}
                   hoverBorderWidth={"1px"}
                   hoverBorderStyle={"solid"}
                   hoverBorderColor={"--primary"}

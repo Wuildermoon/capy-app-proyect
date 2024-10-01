@@ -2,8 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import StyledCategoriesSection from "./Categories.styles";
 import Button from "../../../components/Button";
-import Arrow_left_circle_Icon from "../../../assets/icons/arrow_left_circle";
-import Arrow_right_circle_Icon from "../../../assets/icons/arrow_right_circle";
 import Fastfood_Icon from "../../../assets/icons/fastfood";
 import Palette_Icons from "../../../assets/icons/palette";
 import Local_bar_Icon from "../../../assets/icons/local_bar";
@@ -13,6 +11,8 @@ import Music_note_Icon from "../../../assets/icons/music_note";
 import Sports_and_outdoors_Icon from "../../../assets/icons/sports_and_outdoors";
 import Eco_Icon from "../../../assets/icons/eco";
 import Expand_circle_right_Icon from "../../../assets/icons/expand_circle_right";
+import RightScrollButton from "../../../components/RightScrollButton";
+import LeftScrollButton from "../../../components/LeftScrollButton";
 
 const Categories = () => {
   const listRef = useRef(null);
@@ -22,7 +22,7 @@ const Categories = () => {
       listRef.current.scrollLeft += direction === "left" ? -210 : 210;
     }
   };
-  
+
   useEffect(() => {
     const updateButtonsVisibility = () => {
       if (listRef.current) {
@@ -90,17 +90,7 @@ const Categories = () => {
   ];
   return (
     <StyledCategoriesSection>
-      {showNavButtons && (
-        <Button>
-          <span
-            className="nav-button"
-            onClick={() => handleScroll("left")}
-            aria-label="Mover a la izquierda"
-          >
-            <Arrow_left_circle_Icon />
-          </span>
-        </Button>
-      )}
+      {showNavButtons && <LeftScrollButton handleScroll={handleScroll} />}
       <ul className="list" ref={listRef}>
         {categories.map((item, index) => (
           <li
@@ -118,17 +108,7 @@ const Categories = () => {
           </li>
         ))}
       </ul>
-      {showNavButtons && (
-        <Button>
-          <span
-            className="nav-button"
-            onClick={() => handleScroll("right")}
-            aria-label="Mover a la derecha"
-          >
-            <Arrow_right_circle_Icon />
-          </span>
-        </Button>
-      )}
+      {showNavButtons && <RightScrollButton handleScroll={handleScroll} />}
     </StyledCategoriesSection>
   );
 };

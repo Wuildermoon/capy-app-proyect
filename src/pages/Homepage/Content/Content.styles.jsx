@@ -13,13 +13,6 @@ const StyledEventContentSection = styled.section`
       padding: 0px;
       height: fit-content;
       width: fit-content;
-
-      .nav-button {
-        display: block;
-        height: 30px;
-        width: 30px;
-        border-radius: 50px;
-      }
     }
 
     .list {
@@ -55,14 +48,20 @@ const StyledEventContentSection = styled.section`
       justify-content: center;
       overflow-x: hidden;
       scroll-behavior: inherit;
-      padding: 20px 0px;
     }
   }
 
   .you_might_like {
     .list {
-      padding: 20px 0px;
       gap: 20px;
+    }
+  }
+
+  .made_for_you,
+  .get_to_know_the_city,
+  .you_might_like {
+    .list {
+      padding: 20px 10px;
     }
   }
 
