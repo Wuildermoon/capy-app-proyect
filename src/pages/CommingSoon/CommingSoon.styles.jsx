@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import spa_capy_pusheen from "../../assets/img/spa-capy-pusheen.gif";
 
 const StyledCommingSoonSection = styled.section`
   height: 80vh;
@@ -28,13 +29,14 @@ const StyledCommingSoonSection = styled.section`
     width: 100%;
     margin: 0 auto;
     font-size: 1em;
+    color: var(--font-primary);
   }
 
   .gif {
     height: 300px;
     width: 300px;
     border-radius: 40%;
-    background-image: url("https://media1.tenor.com/m/zPWXNgIuyBQAAAAC/pusheen.gif");
+    background-image: url(${spa_capy_pusheen});
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

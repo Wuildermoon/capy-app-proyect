@@ -3,24 +3,6 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
 
 :root {
-  --primary: #EB5E28;
-  --secondary: #E8E0B4;
-  --tertiary: #262626;
-  --quaternary: #505050;
-  --quinary: #F0F3DD;
-  --senary: #FFFFFF;
-  /* --septenary: ; */
-  /* --octonary: ; */
-  /* --nonary: ; */
-  /* --denary: ; */
-
-  --background-primary: var(--quinary);
-  --background-secondary: var(--senary);
-
-  --font-primary: var(--tertiary);
-  --font-secondary: var(--senary);
-  --font-tertiary: var(--quaternary);
-
   --font-thin: var(--montserrat-alternates-thin);
   --font-extralight: var(--montserrat-alternates-extralight);
   --font-light: var(--montserrat-alternates-light);
@@ -42,13 +24,10 @@ const GlobalStyle = createGlobalStyle`
 
   --font-alternative: var(--questrial-regular);
 
-  --primary-shadow-color: rgba(0, 0, 0, 0.25);
-
   font-family: var(--font-regular);
   font-style: normal;
   line-height: 1.5;
   font-weight: 400;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   text-size-adjust: 100%;
@@ -56,6 +35,60 @@ const GlobalStyle = createGlobalStyle`
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+}
+
+:root.light-theme {
+  --primary: #eb5e28;
+  --secondary: #e8e0b4;
+  --tertiary: #262626;
+  --quaternary: #505050;
+  --quinary: #f0f3dd;
+  --senary: #ffffff;
+  --septenary: #efefef;
+  --octonary: #e0e0e0;
+  --nonary: #d0d0d0;
+  --denary: #c0c0c0;
+
+  /* #FFFFFF
+#CCCCCC
+#AAAAAA */
+
+  --background-primary: var(--quinary);
+  --background-secondary: var(--senary);
+
+  --font-primary: var(--tertiary);
+  --font-secondary: var(--senary);
+  --font-tertiary: var(--quaternary);
+  --font-emphazis: var(--primary);
+
+  --shadow-color: rgba(0, 0, 0, 0.25);
+
+  --icon-primary: var(--quaternary);
+}
+
+:root.dark-theme {
+  --primary: #ff8800;
+  --secondary: #1c1c1c;
+  --tertiary: #cfcfcf;
+  --quaternary: #c0c0c0;
+  --quinary: #121212;
+  --senary: #262626;
+  --septenary: #3a3a3a;
+  --octonary: #4f4f4f;
+  --nonary: #5f5f5f;
+  --denary: #6f6f6f;
+
+  --background-primary: var(--quinary);
+  --background-secondary: var(--senary);
+
+  --font-primary: var(--tertiary);
+  --font-secondary: var(--senary);
+  --font-tertiary: var(--quaternary);
+  --font-emphazis: var(--primary);
+
+  --shadow-color: rgba(0, 0, 0, 0.25);
+
+  --icon-primary: var(--quaternary);
 }
 
 * {

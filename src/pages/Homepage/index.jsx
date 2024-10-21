@@ -7,12 +7,13 @@ import { GlobalContext } from "../../contexts/GlobalContext";
 import Content from "./Content";
 
 const Homepage = () => {
-  const { events, categories, homeContent, touristDestinations } =
-    useContext(GlobalContext);
+  const { state } = useContext(GlobalContext);
+  const { events, categories, homeContent, touristDestinations } = state;
+
   return (
     <StyledSection>
       <Banner />
-      <Categories categories={categories} />
+      <Categories categoriesList={categories} />
       <FeaturedEvents events={events} />
       <Content
         events={events}

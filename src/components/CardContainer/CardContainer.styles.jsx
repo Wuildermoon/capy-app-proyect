@@ -7,6 +7,7 @@ const StyledCardContainerSection = styled.section`
   & > h2 {
     font-size: 18px;
     margin: 0px 10px;
+    color: var(--font-primary);
   }
 
   & > div {

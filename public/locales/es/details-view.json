@@ -1,0 +1,10 @@
+{
+  "not-found": "No se encontró el elemento.",
+  "date": "Fecha",
+  "date-not-specified": "Fecha no especificada",
+  "place": "Lugar",
+  "place-not-specified": "Lugar no especificado",
+  "description": "Descripción",
+  "description-not-available": "Descripción no disponible",
+  "location": "Ubicación"
+}

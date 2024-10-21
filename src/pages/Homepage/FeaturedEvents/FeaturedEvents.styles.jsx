@@ -104,6 +104,10 @@ const StyledFeaturedEventsSection = styled.section`
           .date {
             font-size: 12px;
           }
+
+          .price {
+            display: none;
+          }
         }
       }
     }

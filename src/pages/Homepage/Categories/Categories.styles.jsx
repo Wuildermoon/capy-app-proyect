@@ -10,12 +10,6 @@ const StyledCategoriesSection = styled.section`
 
   & > button {
     padding: 0px;
-    .nav-button {
-      display: block;
-      height: 30px;
-      width: 30px;
-      border-radius: 50px;
-    }
   }
 
   .list {
@@ -65,7 +59,7 @@ const StyledCategoriesSection = styled.section`
 
     & > span {
       background-color: var(--secondary);
-      box-shadow: 2px 2px 4px 0px var(--primary-shadow-color);
+      box-shadow: 2px 2px 4px 0px var(--shadow-color);
       transition: 200ms ease-in-out;
     }
 
@@ -95,7 +89,7 @@ const StyledCategoriesSection = styled.section`
   /* laptop */
   @media (960px <= width) {
     justify-content: center;
-    
+
     .list {
       width: fit-content;
       justify-content: flex-start;

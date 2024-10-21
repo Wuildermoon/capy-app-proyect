@@ -1,0 +1,10 @@
+{
+  "not-found": "Item not found.",
+  "date": "Date",
+  "date-not-specified": "Date not specified",
+  "place": "Place",
+  "place-not-specified": "Place not specified",
+  "description": "Description",
+  "description-not-available": "Description not available",
+  "location": "Location"
+}

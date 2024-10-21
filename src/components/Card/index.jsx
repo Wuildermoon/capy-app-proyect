@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { StyledCardDiv, StyledCardFigure } from "./Card.styles";
 
 const Card = ({ banner, title, date, place, organizer, price, description }) => {
+  const isPriceFree = price === "Gratis" || price === "Free";
   return (
     <StyledCardDiv>
       <StyledCardFigure
@@ -14,7 +15,7 @@ const Card = ({ banner, title, date, place, organizer, price, description }) => 
         <p className="place">{place}</p>
         <p className="organizer">{organizer}</p>
         <p className="description-text">{description}</p>
-        <p className="price">{price}</p>
+        <p className="price">{isPriceFree ? price : `$${price}`}</p>
       </div>
     </StyledCardDiv>
   );

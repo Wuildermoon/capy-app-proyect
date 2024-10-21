@@ -16,7 +16,7 @@ const StyledHeader = styled.header`
     align-items: center;
     justify-content: space-between;
     border-radius: 0px 0px 20px 20px;
-    box-shadow: 0px 0px 5px 2px var(--primary-shadow-color);
+    box-shadow: 0px 4px 10px -3px var(--shadow-color);
     overflow-y: unset;
   }
 
@@ -38,7 +38,7 @@ const StyledHeader = styled.header`
       flex-flow: column nowrap;
       padding: 20px 10px;
       border-radius: 0px 24px 24px 0px;
-      box-shadow: 0px 0px 5px 2px var(--primary-shadow-color);
+      box-shadow: 2px 1px 10px -1px var(--shadow-color);
       overflow-y: scroll;
       scroll-behavior: smooth;
     }
@@ -65,7 +65,7 @@ const StyledHeader = styled.header`
       flex-flow: row nowrap;
       padding: 16px 24px;
       border-radius: 0px 0px 24px 24px;
-      box-shadow: 0px 2px 5px 1px var(--primary-shadow-color);
+      box-shadow: 0px 4px 10px -3px var(--shadow-color);
       overflow-y: unset;
     }
   }

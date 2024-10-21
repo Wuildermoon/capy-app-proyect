@@ -6,12 +6,14 @@ import Home_Icon from "../../assets/icons/home";
 import Map_pin_Icon from "../../assets/icons/map_pin";
 import Profile_Icon from "../../assets/icons/profile";
 import Search_Icon from "../../assets/icons/search";
+import { useTranslation } from "react-i18next";
 
 const MobileNavbar = () => {
+  const {t} = useTranslation("mobile-navbar");
   const itemsMobile = [
     {
-      text: "Home",
-      area_label: "Ir a la sección principal",
+      text: `${t("home")}`,
+      area_label: `${t("home-label")}`,
       icon: (
         <span className="stroke-icon">
           <Home_Icon />
@@ -20,8 +22,8 @@ const MobileNavbar = () => {
       link: "/",
     },
     {
-      text: "Buscar",
-      area_label: "Ir a la sección de busqueda",
+      text: `${t("search")}`,
+      area_label: `${t("search-label")}`,
       icon: (
         <span className="fill-icon">
           <Search_Icon />
@@ -30,8 +32,8 @@ const MobileNavbar = () => {
       link: "/coming_soon",
     },
     {
-      text: "Crear",
-      area_label: "ir al menu de ayuda",
+      text: `${t("create")}`,
+      area_label: `${t("create-label")}`,
       icon: (
         <span className="fill-icon">
           <Add_Icon />
@@ -40,8 +42,8 @@ const MobileNavbar = () => {
       link: "/coming_soon",
     },
     {
-      text: "Mapa",
-      area_label: "abrir el mapa",
+      text: `${t("map")}`,
+      area_label: `${t("map-label")}`,
       icon: (
         <span className="stroke-icon">
           <Map_pin_Icon />
@@ -50,8 +52,8 @@ const MobileNavbar = () => {
       link: "/coming_soon",
     },
     {
-      text: "Perfil",
-      area_label: "ir al la sección del perfil de usuario",
+      text: `${t("profile")}`,
+      area_label: `${t("profile-label")}`,
       icon: (
         <span className="fill-icon">
           <Profile_Icon />

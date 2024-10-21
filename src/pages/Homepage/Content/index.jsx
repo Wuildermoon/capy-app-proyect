@@ -2,14 +2,15 @@ import PropTypes from "prop-types";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import StyledEventContentSection from "./Content.styles";
-import { shuffleArray } from "../../../utils/utils";
 import CardContainer from "../../../components/CardContainer";
 import Card from "../../../components/Card";
-import Button from "../../../components/Button";
-import Arrow_left_circle_Icon from "../../../assets/icons/arrow_left_circle";
-import Arrow_right_circle_Icon from "../../../assets/icons/arrow_right_circle";
+import LeftScrollButton from "../../../components/LeftScrollButton";
+import RightScrollButton from "../../../components/RightScrollButton";
+import { useTranslation } from "react-i18next";
 
 const Content = ({ events, homeContent, touristDestinations }) => {
+  const { t } = useTranslation("content");
+
   const listRefs = useRef([]);
   const [showNavButtons, setShowNavButtons] = useState([]);
 
@@ -49,64 +50,52 @@ const Content = ({ events, homeContent, touristDestinations }) => {
   }, [homeContent]);
 
   const renderListItems = (items, isTouristDestinations) => {
-    return shuffleArray(items)
-      .slice(0, 8)
-      .map((item, index) => (
-        <li
-          className={`list-item ${
-            isTouristDestinations ? "tourist-item" : "event-item"
-          }`}
-          key={index}
-          aria-label={`Ver detalles de ${
-            isTouristDestinations ? "destino turístico" : "evento"
-          }: ${item.title}`}
+    return items.slice(0, 8).map((item, index) => (
+      <li
+        className={`list-item ${
+          isTouristDestinations ? "tourist-item" : "event-item"
+        }`}
+        key={index}
+        aria-label={t("label", { x: item.title })}
+      >
+        <Link
+          to={`/${isTouristDestinations ? "tourism" : "events"}/${item.id}`}
         >
-          <Link
-            to={`/${isTouristDestinations ? "tourism" : "events"}/${item.id}`}
-          >
-            <Card
-              {...item}
-            />
-          </Link>
-        </li>
-      ));
+          <Card {...item} />
+        </Link>
+      </li>
+    ));
   };
 
   return (
     <StyledEventContentSection>
       {homeContent
-        .filter((item) => ["3", "4", "5"].includes(item.id))
+        .filter((item) =>
+          ["made_for_you", "you_might_like", "get_to_know_the_city"].includes(
+            item.id,
+          ),
+        )
         .map((item, index) => (
-          <CardContainer classN={item.classN} title={item.name} key={index}>
+          <CardContainer classN={item.id} title={t(item.name)} key={index}>
             {showNavButtons[index] && (
-              <Button>
-                <span
-                  className="nav-button"
-                  onClick={() => handleScroll("left", index)}
-                  aria-label="Mover a la izquierda"
-                >
-                  <Arrow_left_circle_Icon />
-                </span>
-              </Button>
+              <LeftScrollButton handleScroll={handleScroll} index={index} />
             )}
             <ul
-              className={`list ${item.classN}-list `}
+              className={`list ${item.name}-list `}
               ref={(list) => (listRefs.current[index] = list)}
             >
-              {item.id === "5"
+              {item.id === "get_to_know_the_city"
                 ? renderListItems(touristDestinations, true)
-                : renderListItems(events, false)}
+                : renderListItems(
+                    events.filter(
+                      (item) =>
+                        item.category && item.category.includes("Eventos"),
+                    ),
+                    false,
+                  )}
             </ul>
             {showNavButtons[index] && (
-              <Button>
-                <span
-                  className="nav-button"
-                  onClick={() => handleScroll("right", index)}
-                  aria-label="Mover a la derecha"
-                >
-                  <Arrow_right_circle_Icon />
-                </span>
-              </Button>
+              <RightScrollButton handleScroll={handleScroll} index={index} />
             )}
           </CardContainer>
         ))}

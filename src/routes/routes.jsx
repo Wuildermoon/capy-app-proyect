@@ -4,6 +4,7 @@ import NotFound from "../pages/NotFound/index.jsx";
 import DefaultPage from "../pages/Defaultpage/index.jsx";
 import DetailsView from "../pages/DetailView/index.jsx";
 import CommingSoon from "../pages/CommingSoon/index.jsx";
+import Maps from "../pages/Maps/index.jsx";
 
 const AppRoutes = () => {
   return (
@@ -13,6 +14,7 @@ const AppRoutes = () => {
           <Route index element={<Homepage />} />
           <Route path="/events/:id" element={<DetailsView />} />
           <Route path="/tourism/:id" element={<DetailsView />} />
+          <Route path="/maps" element={<Maps />} />
           <Route path="/coming_soon" element={<CommingSoon />} />
           <Route path="*" element={<NotFound />} />
         </Route>
