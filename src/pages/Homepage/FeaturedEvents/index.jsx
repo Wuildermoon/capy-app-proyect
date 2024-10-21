@@ -1,25 +1,23 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import { useTranslation } from "react-i18next";
 import Card from "../../../components/Card";
 import CardContainer from "../../../components/CardContainer";
 import StyledFeaturedEventsSection from "./FeaturedEvents.styles";
-import { shuffleArray } from "../../../utils/utils";
 import LeftScrollButton from "../../../components/LeftScrollButton";
 import RightScrollButton from "../../../components/RightScrollButton";
 
 const FeaturedEvents = ({ events }) => {
   const listRef = useRef(null);
   const [showNavButtons, setShowNavButtons] = useState(false);
+  const { t } = useTranslation("content");
 
-  
   const handleScroll = (direction) => {
     if (listRef.current) {
       const cardWidth = listRef.current.querySelector("li").offsetWidth;
-
       const padding =
         parseInt(getComputedStyle(listRef.current).paddingLeft, 20) || 0;
-
       const scrollDistance = cardWidth + padding;
 
       listRef.current.scrollLeft +=
@@ -32,7 +30,6 @@ const FeaturedEvents = ({ events }) => {
       if (listRef.current) {
         const listWidth = listRef.current.scrollWidth;
         const containerWidth = listRef.current.clientWidth;
-
         setShowNavButtons(listWidth > containerWidth);
       }
     };
@@ -44,49 +41,46 @@ const FeaturedEvents = ({ events }) => {
       window.removeEventListener("resize", updateButtonsVisibility);
     };
   }, []);
+
   return (
     <StyledFeaturedEventsSection>
-      <CardContainer classN={"featured"} title={"Destacados"}>
+      {/* Renderiza la sección de "Destacados" con el título traducido */}
+      <CardContainer classN={"featured"} title={t("featured")}>
         {showNavButtons && <LeftScrollButton handleScroll={handleScroll} />}
         <ul className="featured-list" ref={listRef}>
-          {shuffleArray(events).map((event, index) => (
+          {events.map((event, index) => (
             <li
               className="featured-item"
               key={index}
-              aria-label={`Ver detalled del evento: ${event.title}`}
+              aria-label={t("label", { x: event.title })}
             >
               <Link to={`/events/${event.id}`}>
-                <Card
-                  banner={event.banner}
-                  title={event.title}
-                  date={event["date-short"]}
-                  place={event.place}
-                />
+                <Card {...event} />
               </Link>
             </li>
           ))}
         </ul>
         {showNavButtons && <RightScrollButton handleScroll={handleScroll} />}
       </CardContainer>
-      <CardContainer classN={"hurry_up"} title={"Apúrate ve"}>
+
+      {/* Renderiza la sección "Apúrate" con el título traducido */}
+      <CardContainer classN={"hurry_up"} title={t("hurry-up")}>
         <ul className="hurry_up-list">
-          {shuffleArray(events)
-            .slice(0, 4)
-            .map((event, index) => (
-              <li
-                className="hurry_up-item"
-                key={index}
-                aria-label={`Ver detalled del evento: ${event.title}`}
-              >
-                <Link to={`/events/${event.id}`}>
-                  <Card
-                    banner={event.banner}
-                    title={event.title}
-                    date={event["date-short"]}
-                  />
-                </Link>
-              </li>
-            ))}
+          {events.slice(0, 4).map((event, index) => (
+            <li
+              className="hurry_up-item"
+              key={index}
+              aria-label={t("label", { x: event.title })}
+            >
+              <Link to={`/events/${event.id}`}>
+                <Card
+                  banner={event.banner}
+                  title={event.title}
+                  date={event["date-short"]}
+                />
+              </Link>
+            </li>
+          ))}
         </ul>
       </CardContainer>
     </StyledFeaturedEventsSection>

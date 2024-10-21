@@ -28,7 +28,6 @@ const GlobalStyle = createGlobalStyle`
   font-style: normal;
   line-height: 1.5;
   font-weight: 400;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   text-size-adjust: 100%;
@@ -39,7 +38,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 :root.light-theme {
-    --primary: #eb5e28;
+  --primary: #eb5e28;
   --secondary: #e8e0b4;
   --tertiary: #262626;
   --quaternary: #505050;
@@ -68,7 +67,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 :root.dark-theme {
-  --primary: #f80;
+  --primary: #ff8800;
   --secondary: #1c1c1c;
   --tertiary: #cfcfcf;
   --quaternary: #c0c0c0;

@@ -6,6 +6,26 @@ const StyledDiv = styled.div`
   display: flex;
   gap: 10px;
 
+  .language-menu {
+    position: absolute;
+    background-color: var(--background-secondary);
+    border: 1px solid var(--secondary);
+    border-radius: 8px;
+    list-style: none;
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  .language-menu li {
+    padding: 8px;
+    color: var(--font-primary);
+    cursor: pointer;
+  }
+
+  .language-menu li:hover {
+    background-color: var(--background-secondary);
+  }
+
   .list {
     width: auto;
     display: flex;

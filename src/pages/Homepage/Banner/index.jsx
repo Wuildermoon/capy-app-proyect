@@ -1,15 +1,17 @@
-import StyledBannerSection from "./Banner.styles"
-
+import StyledBannerSection from "./Banner.styles";
+import { useTranslation } from "react-i18next";
 
 const Banner = () => {
+  const { t } = useTranslation("banner");
+
   return (
     <StyledBannerSection>
-        <div>
-            <h2>Descubre</h2>
-            <h3>las mejores experiencias</h3>
-        </div>
+      <div>
+        <h2>{t("discover")}</h2>
+        <h3>{t("best-experiences")}</h3>
+      </div>
     </StyledBannerSection>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

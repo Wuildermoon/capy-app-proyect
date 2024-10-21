@@ -1,0 +1,12 @@
+{
+  "home": "Home",
+  "search": "Search",
+  "create": "Create",
+  "map": "Map",
+  "profile": "Profile",
+  "home-label": "Go to the main section",
+  "search-label": "Go to the search section",
+  "create-label": "Go to the section to add events",
+  "map-label": "Open the map",
+  "profile-label": "Open user profile"
+}

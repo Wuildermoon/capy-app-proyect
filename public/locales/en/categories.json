@@ -1,0 +1,22 @@
+{
+  "see-all": "See all",
+  "food": "Food",
+  "art": "Art",
+  "nightlife": "Nightlife",
+  "theatre": "Theatre",
+  "fairs": "Fairs",
+  "music": "Music",
+  "sports": "Sports",
+  "ecological": "Ecological",
+  "tourism": "Tourism",
+  "food-label": "View the food category",
+  "art-label": "View the art category",
+  "nightlife-label": "View the nightlife category",
+  "theatre-label": "View the theatre category",
+  "fairs-label": "View the fairs category",
+  "music-label": "View the music category",
+  "sports-label": "View the sports category",
+  "ecological-label": "View the ecological category",
+  "tourism-label": "View the tourism category",
+  "all-label": "View all categories"
+}

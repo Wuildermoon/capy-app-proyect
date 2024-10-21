@@ -1,0 +1,10 @@
+{
+  "discover": "Descubre",
+  "create": "Crear evento",
+  "map": "Mapa",
+  "help": "Ayuda",
+  "discover-label": "Ir a la sección principal",
+  "create-label": "Ir a la sección para añadir eventos",
+  "map-label": "Ir a la sección para ver el mapa",
+  "help-label": "Ir al menu de ayuda"
+}

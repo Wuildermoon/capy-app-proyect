@@ -1,9 +1,10 @@
 import AppRoutes from "./routes/routes";
-import GlobalStyles from "./styles/GlobalStyles";
+import { ThemeProvider } from "./styles/theme/theme";
 import FontMontserratAlternates from "./styles/FontMontserratAlternates";
 import FontQuestrial from "./styles/Questrial";
+import GlobalStyles from "./styles/GlobalStyles";
 import GlobalContextProvider from "./contexts/GlobalContext";
-import { ThemeProvider } from "./styles/theme/theme";
+import { Suspense } from "react";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
           <FontMontserratAlternates />
           <FontQuestrial />
           <GlobalStyles />
-          <AppRoutes />
+            <Suspense fallback="Loading">
+              <AppRoutes />
+            </Suspense>
         </ThemeProvider>
       </GlobalContextProvider>
     </>

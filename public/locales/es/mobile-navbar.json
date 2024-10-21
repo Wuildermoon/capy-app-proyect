@@ -1,0 +1,12 @@
+{
+  "home": "Home",
+  "search": "Buscar",
+  "create": "Crear",
+  "map": "Mapa",
+  "profile": "Perfil",
+  "home-label": "Ir a la sección principal",
+  "search-label": "Ir a la sección de busqueda",
+  "create-label": "Ir a la sección para añadir eventos",
+  "map-label": "Abrir el mapa",
+  "profile-label": "Abrir el perfil de usuario"
+}

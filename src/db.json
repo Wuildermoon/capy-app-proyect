@@ -13,7 +13,7 @@
       "price": "Gratis",
       "description-short": "En el marco de la COP16 de la CBD, expertos analizan los retos de la cadenas de valor en el trópico y su potencial para la bioeconomía.",
       "description-long": "La biodiversidad y los productos forestales no maderables (PFNM) representan una oportunidad crucial para los países tropicales, que se caracterizan por poseer una riqueza biológica excepcional y, al mismo tiempo, enfrentar desafíos sociales y económicos significativos. \nEstos productos, que incluyen frutas, semillas, flores, resinas y otros recursos vegetales, están profundamente integrados en los ecosistemas naturales y en las prácticas tradicionales de las comunidades locales. \nLa incorporación de estos recursos en la bioeconomía ofrece un camino hacia el desarrollo sostenible, pero también plantea desafíos complejos en términos de logística, tecnología, sostenibilidad e innovación. \nEs esencial asegurar que el aprovechamiento de estos recursos no solo genere valor agregado, sino que también cumpla con estándares ambientales, sociales y económicos, respetando el conocimiento tradicional y fortaleciendo las economías locales.",
-      "category": ["Eventos", "Naturaleza"]
+      "category": ["Eventos", "Ecológicos"]
     },
     {
       "id": "2",
@@ -28,7 +28,7 @@
       "price": "Gratis",
       "description-short": "Learn details of Nature, Health, Equity and Quality of Life priorities of LEED for Communities projects in Colombia.",
       "description-long": "This panel focuses on the the protection, enhancement and restoration of natural resources, biodiversity and wellness in more than 20 LEED for Communities projects in Colombia.",
-      "category": ["Eventos", "Naturaleza"]
+      "category": ["Eventos", "Ecológicos"]
     },
     {
       "id": "3",
@@ -58,7 +58,7 @@
       "price": "$6.570",
       "description-short": "Join Jeff Parker for this ~ COLOMBIA BIRDS ~ 2025 ~ Photography Tour & Workshop.",
       "description-long": "During this all-inclusive Colombia Birds Photo Tour 2025 journey through cloud forests and high-elevation páramos to photograph a variety of birds, including several endemics. With nearly 2,000 species, Colombia is home to more birds than anywhere else on Earth. \nIn fact, Colombia hosts 18% of the world’s bird species even though its land only covers about 1% of the globe! The majority of our shooting takes place at easily-accessed, professionally-created bird-photography set-ups. \nWith a level of biodiversity that is off the charts, plan to photograph dozens of species that include tanagers, honeycreepers, owls, toucans, antpittas, brush-finches, hummingbirds, flycatchers, toucanets, quail, chachalacas, orioles, barbets, woodpeckers…and more! \n\nLIMITED TO SIX (6) in each tour ~ ALL-INCLUSIVE ~ OFFERED TWICE in 2025 \n\nMORE INFO: https://exploreinfocus.com/joinme/colombia-birds-photography-workshop-2025/",
-      "category": ["Eventos", "Naturaleza"]
+      "category": ["Eventos", "Ecológicos"]
     },
     {
       "id": "5",
@@ -228,7 +228,7 @@
       "price": "Entrada: $10.000",
       "description-short": "Un parque natural que ofrece rutas de senderismo y una biodiversidad única en los Andes.",
       "description-long": "El Parque Nacional Natural Farallones de Cali es un área protegida que alberga una gran variedad de ecosistemas y especies de flora y fauna. Es ideal para los amantes de la naturaleza y el senderismo.",
-      "category": ["Turismo", "Naturaleza"]
+      "category": ["Turismo", "Ecológicos"]
     },
     {
       "id": "17",
@@ -276,7 +276,7 @@
       "price": "Entrada: $17.000",
       "description-short": "Un espacio verde dedicado a la conservación de plantas y la educación ambiental.",
       "description-long": "El Jardín Botánico de Cali es un lugar para aprender sobre la flora local y disfrutar de un entorno natural tranquilo. Ofrece senderos, áreas de picnic y actividades educativas.",
-      "category": ["Turismo", "Naturaleza"]
+      "category": ["Turismo", "Ecológicos"]
     },
     {
       "id": "21",
@@ -300,18 +300,20 @@
       "price": "Gratis",
       "description-short": "Un mirador natural que ofrece vistas panorámicas de la ciudad de Cali y sus alrededores.",
       "description-long": "El Cerro de las Tres Cruces es un destino popular para quienes buscan hacer ejercicio y disfrutar de vistas espectaculares de la ciudad. Es ideal para caminatas y actividades al aire libre.",
-      "category": ["Turismo", "Naturaleza"]
+      "category": ["Turismo", "Ecológicos"]
     }
   ],
   "categories": [
-    { "id": "1", "name": "Comida" },
-    { "id": "2", "name": "Arte" },
-    { "id": "3", "name": "Vida Nocturna" },
-    { "id": "4", "name": "Teatro" },
-    { "id": "5", "name": "Ferias" },
-    { "id": "6", "name": "Música" },
-    { "id": "7", "name": "Deportes" },
-    { "id": "8", "name": "Naturaleza" }
+    { "id": "food-category", "name": "Comida" },
+    { "id": "art-category", "name": "Arte" },
+    { "id": "nightlife-category", "name": "Vida Nocturna" },
+    { "id": "theatre-category", "name": "Teatro" },
+    { "id": "fairs-category", "name": "Ferias" },
+    { "id": "music-category", "name": "Música" },
+    { "id": "sports-category", "name": "Deportes" },
+    { "id": "ecological-category", "name": "Ecológicos" },
+    { "id": "tourism-category", "name": "Turismo" },
+    { "id": "all-category", "name": "Ver todo" }
   ],
   "home-content": [
     {
