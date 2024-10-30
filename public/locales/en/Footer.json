@@ -1,0 +1,27 @@
+{
+  "copyright": "© American Capy 2024 - All rights reserved.",
+  "capy": {
+    "developed": "Developed by",
+    "follow-us": "Follow us"
+  },
+  "about": {
+    "title": "About",
+    "content": {
+      "about-capy": "About Capy",
+      "about-us": "About us",
+      "services": "Our services",
+      "contact-us": "Contact us"
+    }
+  },
+  "support": {
+    "title": "Support",
+    "content": {
+      "faqs": "FAQs",
+      "privacy-policy": "Privacy Policy",
+      "terms-of-service": "Terms and Conditions",
+      "help": "Help",
+      "cookies": "Cookies"
+    }
+  },
+  "committed": "Committed"
+}

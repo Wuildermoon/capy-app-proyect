@@ -476,6 +476,35 @@ const db = {
       category: "Turismo",
     },
   ],
+  footer: [
+    {
+      id: "about",
+      title: "about.title",
+      content: [
+        { text: "about.content.about-capy", link: "https://www.google.com" },
+        { text: "about.content.about-us", link: "https://www.google.com" },
+        { text: "about.content.services", link: "https://www.google.com" },
+        { text: "about.content.contact-us", link: "https://www.google.com" },
+      ],
+    },
+    {
+      id: "support",
+      title: "support.title",
+      content: [
+        { text: "support.content.faqs", link: "https://www.google.com" },
+        {
+          text: "support.content.privacy-policy",
+          link: "https://www.google.com",
+        },
+        {
+          text: "support.content.terms-of-service",
+          link: "https://www.google.com",
+        },
+        { text: "support.content.help", link: "https://www.google.com" },
+        { text: "support.content.cookies", link: "https://www.google.com" },
+      ],
+    },
+  ],
 };
 
 export default db;
