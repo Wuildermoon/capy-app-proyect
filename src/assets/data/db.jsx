@@ -236,7 +236,7 @@ const db = {
     {
       id: "tTmiHWJgiG",
       banner:
-        "https://thumbs.dreamstime.com/b/la-ermita-church-cali-colombia-93062736.jpg",
+        "https://th.bing.com/th/id/OIP.rycj0-YvmGaTbo3VOwWCLgHaFj?rs=1&pid=ImgDetMain",
       title: "Iglesia La Ermita",
       place: "Centro Histórico",
       "place-specific": "Cra. 1 #0, San Pedro, Cali, Valle del Cauca",
