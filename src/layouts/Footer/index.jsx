@@ -13,7 +13,7 @@ import Youtube_Icon from "../../assets/icons/youtube";
 const Footer = () => {
   const { state } = useContext(GlobalContext);
   const { footerInfo } = state;
-  const { t } = useTranslation("Footer");
+  const { t } = useTranslation("footer");
   return (
     <StyledFooter>
       <div className="container">

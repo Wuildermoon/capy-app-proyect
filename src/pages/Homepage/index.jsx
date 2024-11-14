@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Banner from "./Banner";
-import Categories from "./Categories";
+import CategoriesBar from "./CategoriesBar";
 import FeaturedEvents from "./FeaturedEvents";
 import StyledSection from "./Homepage.styles";
 import { GlobalContext } from "../../contexts/GlobalContext";
@@ -13,7 +13,7 @@ const Homepage = () => {
   return (
     <StyledSection>
       <Banner />
-      <Categories categoriesList={categories} />
+      <CategoriesBar categoriesList={categories} />
       <FeaturedEvents events={events} />
       <Content
         events={events}

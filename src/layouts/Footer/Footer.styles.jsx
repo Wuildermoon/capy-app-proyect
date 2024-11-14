@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import PusheenAndCapybaraWalk from "../../assets/img/pusheen-and-capybara-walk.gif";
 
 const StyledFooter = styled.footer`
   /* mobile */
