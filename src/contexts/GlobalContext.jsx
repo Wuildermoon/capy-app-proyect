@@ -8,6 +8,7 @@ const actionTypes = {
   SET_TOURIST_DESTINATIONS: "SET_TOURIST_DESTINATIONS",
   SET_CATEGORIES: "SET_CATEGORIES",
   SET_HOME_CONTENT: "SET_HOME_CONTENT",
+  SET_FOOTER_INFO: "SET_FOOTER_INFO",
 };
 
 const globalReducer = (state, action) => {
@@ -20,6 +21,8 @@ const globalReducer = (state, action) => {
       return { ...state, categories: action.payload };
     case actionTypes.SET_HOME_CONTENT:
       return { ...state, homeContent: action.payload };
+    case actionTypes.SET_FOOTER_INFO:
+      return { ...state, footerInfo: action.payload };
     default:
       throw new Error(`Unhandled action type: ${action.type}`);
   }
@@ -30,6 +33,7 @@ const initialState = {
   touristDestinations: [],
   categories: [],
   homeContent: [],
+  footerInfo: [],
 };
 
 export const GlobalContext = createContext();
@@ -49,6 +53,10 @@ const GlobalContextProvider = ({ children }) => {
     dispatch({
       type: actionTypes.SET_HOME_CONTENT,
       payload: db["home-content"],
+    });
+    dispatch({
+      type: actionTypes.SET_FOOTER_INFO,
+      payload: db.footer,
     });
   }, []);
 

@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import StyledCategoriesSection from "./Categories.styles";
+import StyledCategoriesBarSection from "./CategoriesBar.styles";
 import Button from "../../../components/Button";
 import RightScrollButton from "../../../components/RightScrollButton";
 import LeftScrollButton from "../../../components/LeftScrollButton";
 import { useTranslation } from "react-i18next";
 
-const Categories = ({ categoriesList }) => {
+const CategoriesBar = ({ categoriesList }) => {
   const { t } = useTranslation("categories");
   const listRef = useRef(null);
   const [showNavButtons, setShowNavButtons] = useState(false);
@@ -37,7 +37,7 @@ const Categories = ({ categoriesList }) => {
   }, []);
 
   return (
-    <StyledCategoriesSection>
+    <StyledCategoriesBarSection>
       {showNavButtons && <LeftScrollButton handleScroll={handleScroll} />}
       <ul className="list" ref={listRef}>
         {categoriesList.map((item, index) => (
@@ -55,11 +55,11 @@ const Categories = ({ categoriesList }) => {
         ))}
       </ul>
       {showNavButtons && <RightScrollButton handleScroll={handleScroll} />}
-    </StyledCategoriesSection>
+    </StyledCategoriesBarSection>
   );
 };
 
-Categories.propTypes = {
+CategoriesBar.propTypes = {
   categoriesList: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
@@ -70,4 +70,4 @@ Categories.propTypes = {
   ).isRequired,
 };
 
-export default Categories;
+export default CategoriesBar;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledCategoriesSection = styled.section`
+const StyledCategoriesBarSection = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,4 +107,4 @@ const StyledCategoriesSection = styled.section`
   }
 `;
 
-export default StyledCategoriesSection;
+export default StyledCategoriesBarSection;

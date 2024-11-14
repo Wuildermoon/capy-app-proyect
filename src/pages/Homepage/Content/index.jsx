@@ -89,7 +89,7 @@ const Content = ({ events, homeContent, touristDestinations }) => {
                 : renderListItems(
                     events.filter(
                       (item) =>
-                        item.category && item.category.includes("Eventos"),
+                        item.category && item.category.includes("events"),
                     ),
                     false,
                   )}

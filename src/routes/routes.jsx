@@ -5,6 +5,7 @@ import DefaultPage from "../pages/Defaultpage/index.jsx";
 import DetailsView from "../pages/DetailView/index.jsx";
 import CommingSoon from "../pages/CommingSoon/index.jsx";
 import Maps from "../pages/Maps/index.jsx";
+import Categories from "../pages/Categories/index.jsx";
 
 const AppRoutes = () => {
   return (
@@ -12,9 +13,10 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<DefaultPage />}>
           <Route index element={<Homepage />} />
+          <Route path="/maps" element={<Maps />} />
           <Route path="/events/:id" element={<DetailsView />} />
           <Route path="/tourism/:id" element={<DetailsView />} />
-          <Route path="/maps" element={<Maps />} />
+          <Route path="/categories/:id" element={<Categories />} />
           <Route path="/coming_soon" element={<CommingSoon />} />
           <Route path="*" element={<NotFound />} />
         </Route>

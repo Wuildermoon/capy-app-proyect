@@ -29,7 +29,7 @@ const db = {
         "En el marco de la COP16 de la CBD, expertos analizan los retos de la cadenas de valor en el trópico y su potencial para la bioeconomía.",
       "description-long":
         "La biodiversidad y los productos forestales no maderables (PFNM) representan una oportunidad crucial para los países tropicales, que se caracterizan por poseer una riqueza biológica excepcional y, al mismo tiempo, enfrentar desafíos sociales y económicos significativos. \nEstos productos, que incluyen frutas, semillas, flores, resinas y otros recursos vegetales, están profundamente integrados en los ecosistemas naturales y en las prácticas tradicionales de las comunidades locales. \nLa incorporación de estos recursos en la bioeconomía ofrece un camino hacia el desarrollo sostenible, pero también plantea desafíos complejos en términos de logística, tecnología, sostenibilidad e innovación. \nEs esencial asegurar que el aprovechamiento de estos recursos no solo genere valor agregado, sino que también cumpla con estándares ambientales, sociales y económicos, respetando el conocimiento tradicional y fortaleciendo las economías locales.",
-      category: ["Eventos", "Ecológicos"],
+      category: ["events", "ecological"],
     },
     {
       id: "TjPW8uOQUf",
@@ -48,7 +48,7 @@ const db = {
         "Learn details of Nature, Health, Equity and Quality of Life priorities of LEED for Communities projects in Colombia.",
       "description-long":
         "This panel focuses on the the protection, enhancement and restoration of natural resources, biodiversity and wellness in more than 20 LEED for Communities projects in Colombia.",
-      category: ["Eventos", "Ecológicos"],
+      category: ["events", "ecological"],
     },
     {
       id: "mSoL6OIuaI",
@@ -66,7 +66,7 @@ const db = {
         "DESDE LA SUCURSAL DEL CIELO NACE EL PRIMER FESTIVAL GASTRONÓMICO STREET FOOD AND HYPE ENTERTAINMENT.",
       "description-long":
         "Bienvenidos al festival gastronómico de entretenimiento y lifestyle en el que convergen deliciosos sabores, experiencias de marca únicas, visibilidad de emprendimientos y momentos imperdibles que te llevarán al cielo donde todos podemos llegar.",
-      category: ["Eventos", "Comida"],
+      category: ["events", "food"],
     },
     {
       id: "UzKmGT52ZP",
@@ -84,7 +84,7 @@ const db = {
         "Join Jeff Parker for this ~ COLOMBIA BIRDS ~ 2025 ~ Photography Tour & Workshop.",
       "description-long":
         "During this all-inclusive Colombia Birds Photo Tour 2025 journey through cloud forests and high-elevation páramos to photograph a variety of birds, including several endemics. With nearly 2,000 species, Colombia is home to more birds than anywhere else on Earth. \nIn fact, Colombia hosts 18% of the world’s bird species even though its land only covers about 1% of the globe! The majority of our shooting takes place at easily-accessed, professionally-created bird-photography set-ups. \nWith a level of biodiversity that is off the charts, plan to photograph dozens of species that include tanagers, honeycreepers, owls, toucans, antpittas, brush-finches, hummingbirds, flycatchers, toucanets, quail, chachalacas, orioles, barbets, woodpeckers…and more! \n\nLIMITED TO SIX (6) in each tour ~ ALL-INCLUSIVE ~ OFFERED TWICE in 2025 \n\nMORE INFO: https://exploreinfocus.com/joinme/colombia-birds-photography-workshop-2025/",
-      category: ["Eventos", "Ecológicos"],
+      category: ["events", "ecological"],
     },
     {
       id: "UPgtLHmmaQ",
@@ -102,7 +102,7 @@ const db = {
         "¡Bienvenido a la feria de estudios en el exterior más grande de Latinoamérica! Estudia idiomas, diplomas, carreras, posgrados y maestrías.",
       "description-long":
         "Sabemos que estás buscando opciones de estudio y trabajo en el exterior. Es por eso que te invitamos a ser parte de nuestra feria: EXPOESTUDIOS, un evento gratuito que te permitirá conocer las opciones de crecimiento profesional fuera del país.",
-      category: ["Eventos", "Ferias"],
+      category: ["events", "fairs"],
     },
     {
       id: "vvyjeXBtDr",
@@ -121,7 +121,7 @@ const db = {
         "¡Aprende, comparte y crece con la comunidad Python de Cali! Un día completo de conferencias y networking.",
       "description-long":
         "Un día de Python, Data Science, Machine Learning, Infraestructura, medio ambiente y mucho más. \nTendremos conferencias, networking y premios. No faltes!",
-      category: ["Eventos", "Ferias"],
+      category: ["events", "fairs"],
     },
     {
       id: "A8SUGmT1bM",
@@ -139,7 +139,7 @@ const db = {
       "description-short": "The largest Language Exchange in Latin America",
       "description-long":
         "Every Tuesday we host a FREE language exchange in Terraza Once Once Granada. \nIt is an informal environment with organised groups, the idea being to have at least one or two native speakers per group. \nAfter the language exchange we have an awesome party until 3AM. \nThe most popular languages that you can practice are: English, Spanish, French, Italian, Portugues and German. \nAdmission is free until 9pm, after 9pm it has a value of $20.000 COP",
-      category: ["Eventos", "Vida Nocturna"],
+      category: ["events", "nightlife"],
     },
     {
       id: "yFzlXg5I9y",
@@ -157,7 +157,7 @@ const db = {
         "This is the Thursday Night Pub Crawl in Cali, Colombia! We will be crawling down El Peñon!",
       "description-long":
         "IMPORTANT- There is a dress code for this tour! \nGuys must wear closed toed shoes on this tour. Swimwear, sandals, hats, sportswear, and sunglasses are NOT allowed! Furthermore, we do not allow any aspects of sex tourism either. \nWe are a group of local friends that host bar crawls in Colombia. We wanted to give foreigners and tourists a unique 'locals experience', so we started these bar crawls. \nThis bar crawl consists of 3 local bars and 1 club, all located in the nightlife district of Cali. El Peñon is one of the most popular nightlife areas, especially among university students and tourists, in Cali. We will meet for 1 hour at the first bar at 8:30 pm to congregate and converse. We will then proceed to the next bars every hour, finally finishing off at the salsa club by 12:15 am. Cali is known for salsa, so you must dance it at least once! \nSometimes locals also come on our crawls, so you may have the opportunity to connect with some Colombians and practice your Spanish! \n\nHere are the benefits of coming on our tour: \nBar #1- 10% off the check! \nBar #2 - Free local cocktail with the purchase of any cocktail and 3 cocktails for 80.000 COP/person! \nBar/Club #3 - 2x1 cocktails for Viche Mule and Viche Smash! \nDropoff Salsa Club- Discouinted cover of 5.000 COP & 40.000 COP combo special of any beer, shot, and cocktail!",
-      category: ["Eventos", "Vida Nocturna"],
+      category: ["events", "nightlife"],
     },
     {
       id: "Fk6nlkFzxX",
@@ -175,7 +175,7 @@ const db = {
         "Experience the joy and excitement of salsa dancing with your friends in our 45-minute group salsa class at Cali Salsa Dance Studio.",
       "description-long":
         "Join our free trial of a 45-minute group salsa class in Cali for an exciting, energetic experience. Perfect for friends or small groups, our instructors will guide you through the steps of salsa. \nOur experienced instructors create a fun and inclusive environment, providing personalized guidance and instruction tailored to the group's skill level. \nThe class begins with a warm-up to get everyone comfortable and ready to dance. You'll then learn the fundamental steps and rhythms of salsa, progressing to more complex patterns and combinations as you build confidence. Whether you're new to salsa or have some experience, our instructors will ensure everyone enjoys the class and leaves with improved skills. \nLocated in the heart of Cali, our studio offers an authentic salsa experience in the city known worldwide for this vibrant dance style. It's a perfect opportunity to immerse yourself in the local culture and have a great time with your group.",
-      category: ["Eventos", "Danza"],
+      category: ["events", "dance"],
     },
     {
       id: "YkSTCTRr3E",
@@ -194,7 +194,7 @@ const db = {
         "COP16 Descubre cómo la tecnología en salud puede ayudar a combatir la escasez de agua en todo el mundo en nuestro evento",
       "description-long":
         "La Conferencia de las Partes (COP) es el espacio de discusión y negociación más importante del Convenio sobre la Diversidad (CDB) Biológica de las Naciones Unidas. \n🔗www.cop16colombia.com/es/events/del-espacio-a-la-tierra-pure-life-innovation-healthtech/ \nDel Espacio a la Tierra: Pure Life by Nelo Innovación Healthtech, la Respuesta a la Escasez Global al Agua Potable \n¡No te pierdas este evento innovador que aborda la escasez de agua a nivel mundial! \nÚnete a nosotros en el evento internacional COP16 en la Cámara de Comercio de Cali para descubrir las últimas tecnologías de Healthtech y Watertech que están revolucionando la forma en que tratamos este recurso vital. En Nelo Group, Nelo Space, Nelo Labs estamos comprometidos con la Innovacion Tecnologica, desde soluciones espaciales hasta innovaciones terrestres, exploraremos cómo la tecnología puede garantizar un suministro de agua puro y sostenible para todos. \n¡Reserva tu lugar ahora!",
-      category: ["Eventos"],
+      category: ["events"],
     },
     {
       id: "OZaqR9724t",
@@ -212,7 +212,7 @@ const db = {
         "¡Ven y descubre la importancia de la biodiversidad, el agua, la eduación ambiental y la vida, en nuestro evento Mojana!",
       "description-long":
         "Mojana: biodiversidad, agua y vida \n\n¡No te pierdas este evento especial que celebra la biodiversidad, el agua y la vida en la Mojana! Acompáñanos en persona en la COP 16 ZONA VERDE-SALA 1 BANCO DE OCCIDENTE para aprender más sobre la importancia de proteger nuestro entorno natural. Disfruta de charlas inspiradoras, actividades interactivas y la oportunidad de conectarte con otros amantes de la naturaleza. ¡Únete a nosotros y sé parte de esta causa tan importante!",
-      category: ["Eventos"],
+      category: ["events"],
     },
     {
       id: "yKY6YyPbm8",
@@ -229,7 +229,7 @@ const db = {
       "description-short": "La Fiesta Que Une Generaciones",
       "description-long":
         "Este año vive intensamente la fiesta que une a generaciones, llega el Cali Pop Festival 2024 con un repertorio imperdible, concierto sinfónico de bandas sonoras de series. \n¿Quieres ser parte de tu película favorita?, ven al Centro de danza La Licorera este 5 y 6 de octubre. Tendremos zonas de fotos para recrear las principales series de tu infancia. Porque no hay limite de edad para soñar, vamos a hacer que suceda. \nConcursos de disfraces para las mascotas, grupo familiar y cosplay. Nunca antes ser friki había estado tan de moda, así que ven y comparte con nosotros todo lo que te gusta, todo lo que te encanta.",
-      category: ["Eventos", "Ferias"],
+      category: ["events", "fairs"],
     },
   ],
   "tourist-destinations": [
@@ -246,7 +246,7 @@ const db = {
         "Una de las iglesias más emblemáticas de Cali, conocida por su arquitectura y su importancia histórica.",
       "description-long":
         "La Iglesia La Ermita es un ícono arquitectónico de Cali, con una estructura neogótica que destaca en el centro histórico de la ciudad. Es un lugar de interés para quienes aprecian la historia y la arquitectura.",
-      category: ["Turismo", "Historia"],
+      category: ["tourism", "history"],
     },
     {
       id: "8PX26DJXsH",
@@ -262,7 +262,7 @@ const db = {
         "Un parque temático que presenta esculturas de gatos en diferentes estilos artísticos.",
       "description-long":
         "El Parque Las Novias del Gato del Río es un lugar único en Cali, donde los visitantes pueden disfrutar de una exposición al aire libre de esculturas de gatos, cada una diseñada por artistas locales. Es un lugar divertido y fotogénico para todos.",
-      category: ["Turismo", "Arte"],
+      category: ["tourism", "art"],
     },
     {
       id: "xLJIXkJ8ER",
@@ -278,7 +278,7 @@ const db = {
         "La plaza principal de Cali, rodeada de edificios históricos y centros culturales.",
       "description-long":
         "La Plaza de Caicedo es el corazón de Cali, un lugar vibrante que alberga eventos culturales y es el punto de partida para explorar el centro histórico de la ciudad. Está rodeada de edificios coloniales y modernos, y es un excelente lugar para conocer la vida local.",
-      category: ["Turismo", "Cultura"],
+      category: ["tourism", "culture"],
     },
     {
       id: "eq5t3yl2hG",
@@ -293,7 +293,7 @@ const db = {
         "Un parque natural que ofrece rutas de senderismo y una biodiversidad única en los Andes.",
       "description-long":
         "El Parque Nacional Natural Farallones de Cali es un área protegida que alberga una gran variedad de ecosistemas y especies de flora y fauna. Es ideal para los amantes de la naturaleza y el senderismo.",
-      category: ["Turismo", "Ecológicos"],
+      category: ["tourism", "ecological"],
     },
     {
       id: "V6WYWCG7Xx",
@@ -308,7 +308,7 @@ const db = {
         "Un museo de arte moderno y contemporáneo con una variada colección de obras.",
       "description-long":
         "El Museo La Tertulia es un espacio dedicado al arte moderno y contemporáneo, con exposiciones de artistas locales e internacionales. Es un punto cultural importante en Cali para quienes disfrutan del arte.",
-      category: ["Turismo", "Arte"],
+      category: ["tourism", "art"],
     },
     {
       id: "3EPrrHjYF8",
@@ -323,7 +323,7 @@ const db = {
         "Un centro comercial moderno con una gran oferta de tiendas y restaurantes.",
       "description-long":
         "La 14 Valle del Lili es un centro comercial que ofrece una amplia gama de tiendas, restaurantes y opciones de entretenimiento. Es un lugar popular para ir de compras y disfrutar de actividades recreativas.",
-      category: ["Turismo", "Compras"],
+      category: ["tourism", "shopping"],
     },
     {
       id: "oBEG3IZU0g",
@@ -339,7 +339,7 @@ const db = {
         "Un monumento icónico con una vista panorámica de la ciudad de Cali.",
       "description-long":
         "Cristo Rey es una estatua gigante que se erige sobre una colina, ofreciendo vistas panorámicas impresionantes de la ciudad de Cali. Es un lugar ideal para tomar fotografías y disfrutar del paisaje.",
-      category: ["Turismo", "Mirador"],
+      category: ["tourism", "viewpoint"],
     },
     {
       id: "cTwPQXUETQ",
@@ -354,7 +354,7 @@ const db = {
         "Un espacio verde dedicado a la conservación de plantas y la educación ambiental.",
       "description-long":
         "El Jardín Botánico de Cali es un lugar para aprender sobre la flora local y disfrutar de un entorno natural tranquilo. Ofrece senderos, áreas de picnic y actividades educativas.",
-      category: ["Turismo", "Ecológicos"],
+      category: ["tourism", "ecological"],
     },
     {
       id: "MLNzi9FprS",
@@ -369,7 +369,7 @@ const db = {
         "Uno de los zoológicos más importantes de Colombia, con una gran variedad de animales y espacios educativos.",
       "description-long":
         "El Zoológico de Cali es famoso por su gran biodiversidad y su compromiso con la conservación. Ofrece una experiencia educativa y recreativa para toda la familia.",
-      category: ["Turismo", "Familia"],
+      category: ["tourism", "family"],
     },
     {
       id: "0C2gDnPsVw",
@@ -384,67 +384,136 @@ const db = {
         "Un mirador natural que ofrece vistas panorámicas de la ciudad de Cali y sus alrededores.",
       "description-long":
         "El Cerro de las Tres Cruces es un destino popular para quienes buscan hacer ejercicio y disfrutar de vistas espectaculares de la ciudad. Es ideal para caminatas y actividades al aire libre.",
-      category: ["Turismo", "Ecológicos"],
+      category: ["tourism", "ecological"],
+    },
+    {
+      id: "1",
+      banner:
+        "https://th.bing.com/th/id/OIP.FOHTIwQHlXp1QNkbb6I_uQHaEV?rs=1&pid=ImgDetMain",
+      title: "Museo del Oro Calima",
+      place: "Centro Histórico",
+      "place-specific": "Calle 7 #4-69, Cali, Valle del Cauca",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.0470926463845!2d-76.53832148976973!3d3.4500134965099494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a664eaf14b53%3A0x7987b1407f218ce1!2sMuseo%20del%20Oro%20Calima%20del%20Banco%20de%20la%20Rep%C3%BAblica!5e1!3m2!1ses-419!2sco!4v1731584487996!5m2!1ses-419!2sco",
+      price: "5.000",
+      "description-short":
+        "Exhibe una colección de piezas prehispánicas de la cultura Calima.",
+      "description-long":
+        "El Museo del Oro Calima alberga una impresionante colección de artefactos de oro, cerámica y otros materiales de las culturas precolombinas de la región, ofreciendo una visión profunda de la historia y el patrimonio de Colombia.",
+      category: ["tourism", "history"],
+    },
+    {
+      id: "3",
+      banner:
+        "https://th.bing.com/th/id/R.7809ded6e1d05b81357b599ab6631bad?rik=ypfQhcOYDzqP2A&pid=ImgRaw&r=0",
+      title: "Andoke",
+      place: "Comuna 19",
+      "place-specific": "Carrera 50 #1-20, Cali, Valle del Cauca",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.140616029248!2d-76.57453748976985!3d3.4261914965339253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a44077abf4bd%3A0x374a3ba6307ce68e!2sMariposario%20Andoke!5e1!3m2!1ses-419!2sco!4v1731584274337!5m2!1ses-419!2sco",
+      price: "10.000",
+      "description-short": "Mariposario y centro de educación ambiental.",
+      "description-long":
+        "Andoke es un espacio dedicado a la conservación y educación ambiental, donde los visitantes pueden observar diversas especies de mariposas en su hábitat natural y aprender sobre la importancia de la biodiversidad.",
+      category: ["tourism", "ecological"],
+    },
+    {
+      id: "4",
+      banner:
+        "https://th.bing.com/th/id/R.057ed4b70e827ffcdb7cef75607c240f?rik=EytHqblPxgnXoA&pid=ImgRaw&r=0&sres=1&sresct=1",
+      title: "Puente Ortiz",
+      place: "Centro Histórico",
+      "place-specific": "Avenida Colombia con Carrera 1, Cali, Valle del Cauca",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.0316843900573!2d-76.53534458976966!3d3.453922496506011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a66f675f9265%3A0x4e81d3769f06ba46!2sPuente%20Peatonal%20Ortiz!5e1!3m2!1ses-419!2sco!4v1731584111623!5m2!1ses-419!2sco",
+      price: "Gratis",
+      "description-short":
+        "El puente más antiguo de Cali, símbolo de la ciudad.",
+      "description-long":
+        "Construido en el siglo XIX, el Puente Ortiz es una estructura histórica que conecta el centro de Cali con el barrio San Antonio, ofreciendo vistas pintorescas del río Cali y sus alrededores.",
+      category: ["tourism", "history"],
+    },
+    {
+      id: "5",
+      banner:
+        "https://i.pinimg.com/originals/2e/97/08/2e97080e1cc4970d188a3a4cbf101758.jpg",
+      title: "Colina de San Antonio",
+      place: "Barrio San Antonio",
+      "place-specific": "Calle 2 Oeste, Cali, Valle del Cauca",
+      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.057576760751!2d-76.54409228976974!3d3.447351196512617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a67c59060909%3A0x86f0872fab4c88a6!2sColina%20de%20San%20Antonio!5e1!3m2!1ses-419!2sco!4v1731583950742!5m2!1ses-419!2sco",
+      price: "Gratis",
+      "description-short":
+        "Una colina histórica con una iglesia y vistas hermosas.",
+      "description-long":
+        "La Colina de San Antonio es un lugar popular para disfrutar de una vista panorámica de Cali. Además, cuenta con una iglesia histórica y es un espacio perfecto para relajarse y disfrutar de actividades culturales al aire libre.",
+      category: ["tourism", "viewpoint"],
     },
   ],
   categories: [
     {
       id: "food-category",
       name: "food",
+      description: "food-description",
       area_label: "food-label",
       icon: <Fastfood_Icon />,
     },
     {
       id: "art-category",
       name: "art",
+      description: "art-description",
       area_label: "art-label",
       icon: <Palette_Icons />,
     },
     {
       id: "nightlife-category",
       name: "nightlife",
+      description: "nightlife-description",
       area_label: "nightlife-label",
       icon: <Local_bar_Icon />,
     },
     {
       id: "theatre-category",
       name: "theatre",
+      description: "theatre-description",
       area_label: "theatre-label",
       icon: <Theater_comedy_Icon />,
     },
     {
       id: "fairs-category",
       name: "fairs",
+      description: "fairs-description",
       area_label: "fairs-label",
       icon: <Celebration_Icon />,
     },
     {
       id: "music-category",
       name: "music",
+      description: "music-description",
       area_label: "music-label",
       icon: <Music_note_Icon />,
     },
     {
       id: "sports-category",
       name: "sports",
+      description: "sports-description",
       area_label: "sports-label",
       icon: <Sports_and_outdoors_Icon />,
     },
     {
       id: "ecological-category",
       name: "ecological",
+      description: "ecological-description",
       area_label: "ecological-label",
       icon: <Eco_Icon />,
     },
     {
       id: "tourism-category",
       name: "tourism",
+      description: "tourism-description",
       area_label: "tourism-label",
       icon: <Distance_Icon />,
     },
     {
       id: "all-category",
       name: "see-all",
+      description: "see-all-description",
       area_label: "all-label",
       icon: <Expand_circle_right_Icon />,
     },
@@ -474,6 +543,35 @@ const db = {
       id: "get_to_know_the_city",
       name: "get-to-know-the-city",
       category: "Turismo",
+    },
+  ],
+  footer: [
+    {
+      id: "about",
+      title: "about.title",
+      content: [
+        { text: "about.content.about-capy", link: "https://www.google.com" },
+        { text: "about.content.about-us", link: "https://www.google.com" },
+        { text: "about.content.services", link: "https://www.google.com" },
+        { text: "about.content.contact-us", link: "https://www.google.com" },
+      ],
+    },
+    {
+      id: "support",
+      title: "support.title",
+      content: [
+        { text: "support.content.faqs", link: "https://www.google.com" },
+        {
+          text: "support.content.privacy-policy",
+          link: "https://www.google.com",
+        },
+        {
+          text: "support.content.terms-of-service",
+          link: "https://www.google.com",
+        },
+        { text: "support.content.help", link: "https://www.google.com" },
+        { text: "support.content.cookies", link: "https://www.google.com" },
+      ],
     },
   ],
 };

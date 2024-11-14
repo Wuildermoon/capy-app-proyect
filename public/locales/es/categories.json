@@ -18,5 +18,19 @@
   "sports-label": "Ver la categoría de Deportes",
   "ecological-label": "Ver la categoría de Ecológico",
   "tourism-label": "Ver la categoría de Turismo",
-  "see-all-label": "Ver todas las categorías"
+  "see-all-label": "Ver todas las categorías",
+  "all": "Todos",
+  "events": "Eventos",
+  "destinations": "Destinos Turísticos",
+  "label": "{{x}} - Detalles",
+  "food-description": "Descubre eventos gastronómicos y lugares para disfrutar de la mejor comida.",
+  "art-description": "Explora exposiciones, galerías y actividades artísticas locales.",
+  "nightlife-description": "Sumérgete en la vida nocturna con bares, clubes y fiestas.",
+  "theatre-description": "Encuentra espectáculos de teatro y presentaciones en vivo.",
+  "fairs-description": "Visita ferias y festivales de diversos temas y tradiciones.",
+  "music-description": "Disfruta de conciertos, festivales y eventos de música en vivo.",
+  "sports-description": "Eventos deportivos y actividades para los amantes del deporte.",
+  "ecological-description": "Actividades y eventos ecológicos que promueven la sostenibilidad.",
+  "tourism-description": "Descubre destinos turísticos y lugares de interés para visitar.",
+  "see-all-description": "Explora todos los eventos y destinos disponibles."
 }

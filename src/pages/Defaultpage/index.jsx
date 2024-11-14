@@ -1,7 +1,8 @@
 import { Outlet } from "react-router-dom";
 import Header from "../../layouts/Header";
 import MobileNavbar from "../../layouts/MobileNavbar";
-import { StyledMain, StyledDefaultpageDiv } from "./Defaultpage.styles.jsx";
+import { StyledDefaultpageDiv } from "./Defaultpage.styles.jsx";
+import Footer from "../../layouts/Footer/index.jsx";
 
 const DefaultPage = () => {
   return (
@@ -11,10 +12,11 @@ const DefaultPage = () => {
         <div className="nav-mobile">
           <MobileNavbar />
         </div>
+        <main>
+          <Outlet />
+        </main>
+        <Footer />
       </StyledDefaultpageDiv>
-      <StyledMain>
-        <Outlet />
-      </StyledMain>
     </>
   );
 };

@@ -10,7 +10,7 @@ i18n
   .init({
     fallbackLng: "es",
     load: "languageOnly",
-    loadPath: "/locales/{{lng}}/{{ns}}/option-bar.json",
+    loadPath: "/locales/{{lng}}/{{ns}}.json",
     react: {
       useSuspense: true,
       transEmptyNodeValue: "Texto no disponible",
